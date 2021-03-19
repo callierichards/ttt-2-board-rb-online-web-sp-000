@@ -1,9 +1,14 @@
 # Define the variable board below.
-board = Array.new 3[row]
+board_variable = board
+def board = Array.new (" ", " ", " ", " ", " ", " ", " ", " ", " ")
+puts row = "   |   |   "
+puts separator = "----------"
+puts row
+puts separator
+puts row
 
-row = Array.new(" ", " ", " ")
 
-"position 1" = row [0]
-"position 2" = row [1]
-"position 3" = row [2]
-"----------"
+ row [0]
+ row [1]
+ row [2]
+ 
